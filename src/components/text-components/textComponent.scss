@@ -1,0 +1,22 @@
+$Variable: #0084ff;
+$Type: #00ddff;
+$value: #88efff;
+.variable {
+  color: $Variable;
+}
+.age-section {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.age {
+  display: flex;
+  gap: 10px;
+}
+.type {
+  color: $Type;
+}
+.value {
+  color: $value;
+}

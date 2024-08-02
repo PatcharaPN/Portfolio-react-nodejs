@@ -1,0 +1,58 @@
+$uibackGround: #00000099;
+$profileColor: #ffffff;
+$stringname: #eefc7a;
+$iconColor: #bc62c2;
+
+.nav-content {
+  background-color: $uibackGround;
+  opacity: 0.75;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: fit-content;
+  height: 100vh;
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(109px);
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.icon {
+  font-size: 34px;
+  color: $iconColor !important;
+}
+
+.nav-item-profile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  color: #ffffff;
+}
+
+.profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: $profileColor;
+}
+.contact-list {
+  margin-bottom: 20px;
+}
